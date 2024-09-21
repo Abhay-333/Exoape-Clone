@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @media (min-width:425px) {
+    ::-webkit-scrollbar{
+        width: 0px;
+        background-color: transparent;
+        color: transparent;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+        background-color: rgb(44, 44, 44);
+    
+    }
+} */
