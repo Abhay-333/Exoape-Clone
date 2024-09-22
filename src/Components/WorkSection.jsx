@@ -1,18 +1,169 @@
-import React from 'react'
+import React from "react";
 
 const WorkSection = () => {
   return (
-    <div className='w-full relative'>
-        
+    <div className="w-full relative py-10 px-8 sm:px-[10rem]">
+      <div className="sm:hidden page2-title flex items-center gap-[0.3rem]">
+        <svg
+          viewBox="0 0 12 12"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="icon w-[1rem]"
+          data-v-669b4a84=""
+        >
+          <path
+            d="M7.41908 4.56679L6.13722 0L4.85418 4.92566L0 6L4.85418 7.25435L6.13722 12L7.3276 7.25435L12 6L7.41908 4.56679Z"
+            fill="currentColor"
+            data-v-669b4a84=""
+          ></path>
+        </svg>
 
-        <div className="page2-title">
-        <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon" data-v-669b4a84=""><path d="M7.41908 4.56679L6.13722 0L4.85418 4.92566L0 6L4.85418 7.25435L6.13722 12L7.3276 7.25435L12 6L7.41908 4.56679Z" fill="currentColor" data-v-669b4a84=""></path></svg>
+        <h1 className="text-sm">Featured Projects</h1>
+      </div>
 
-        <h1 className="">Featured Projects</h1>
+      <h1 className="text-[4rem] sm:text-[10rem] sm:leading-[11rem]">Work</h1>
+      <p className="sm:hidden block text-lg tracking-tighter opacity-90">
+        Highlights of cases that we passionately built with forward-thinking
+        clients and friends over the years.
+      </p>
+
+      <div className="work-container sm:h-[115rem] h-[118rem] relative sm:flex sm:flex-wrap mt-10">
+        <div className="elem1 relative sm:w-[50%] flex-shrink-0 ">
+          <div className="imageAndVid h-[25rem] sm:h-fit relative overflow-hidden">
+            <img
+              className="hidden sm:block w-full h-full object-cover object-center"
+              src="https://a.storyblok.com/f/133769/2400x2990/540fb12941/columbia-pictures-thumbnail.jpg/m/1300x1620/filters:quality(90)"
+              alt=""
+            />
+
+            <video
+              autoPlay
+              loop
+              muted
+              className="block sm:hidden absolute top-0 left-0  w-full h-full object-cover scale-[1] object-center "
+              src="https://player.vimeo.com/progressive_redirect/playback/927016456/rendition/720p/file.mp4?loc=external&log_user=0&signature=270ce5ba6bf44a717c74cf85de5f3de1d33a36ba5205b660e5e23b873199d71a"
+              alt=""
+            />
+          </div>
+
+          <div className="picture-heading flex capitalize sm:text-[0.9rem] text-xs">
+            <h1 className="font-semibold">Columbia Pictures--</h1>
+            <p className="opacity-60 font-bold">
+              Celebrating a Century of Cinema
+            </p>
+          </div>
+        </div>
+
+        <div className="text-2xl sm:block hidden sm:w-[35%] sm:h-fit sm:ml-24">
+          <div className="page2-title flex gap-[0.3rem] mb-[3rem]">
+            <svg
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="icon w-[1rem]"
+              data-v-669b4a84=""
+            >
+              <path
+                d="M7.41908 4.56679L6.13722 0L4.85418 4.92566L0 6L4.85418 7.25435L6.13722 12L7.3276 7.25435L12 6L7.41908 4.56679Z"
+                fill="currentColor"
+                data-v-669b4a84=""
+              ></path>
+            </svg>
+
+            <h1 className="text-[1rem] font-semibold leading-none tracking-normal">
+              Featured Projects
+            </h1>
+          </div>
+          <p className="tracking-tight opacity-90 flex-shrink-0 ">
+            Highlights of cases that we passionately built with forward-thinking
+            clients and friends over the years.
+          </p>
+        </div>
+
+        <div className="elem3 sm:absolute top-[52%] left-[40%] sm:w-[50%] translate-[-50%, -50%] flex-shrink-0">
+          <div className="imageAndVid3 mt-[3rem] w-[95%] h-[25rem] sm:h-fit relative overflow-auto">
+            <img
+              className="hidden sm:block w-full h-full object-cover object-center"
+              src="https://a.storyblok.com/f/133769/2400x2990/20d07e6f0c/pixelflakes-hero.jpg/m/1300x1620/filters:quality(90)"
+              alt=""
+            />
+
+            <video
+              autoPlay
+              loop
+              muted
+              className="block sm:hidden absolute top-0 left-0  w-full h-full object-cover scale-[1] object-center "
+              src="https://player.vimeo.com/progressive_redirect/playback/914798271/rendition/720p/file.mp4?loc=external&log_user=0&signature=2af493277d050009920c26416a8d62a9a8c316353242c609ee157fcf1e300076"
+              alt=""
+            />
+          </div>
+
+          <div className="picture-heading flex capitalize sm:text-[0.9rem] text-xs">
+            <h1 className="font-semibold">Pixelflakes--</h1>
+            <p className="opacity-60 font-bold">
+              Architechtural Marketing Agency
+            </p>
+          </div>
         </div>
         
-    </div>
-  )
-}
+        <div className="elem2 sm:absolute top-[23%] left-[50%] translate-[-50%, -50%] sm:w-[fit] flex-shrink-0 sm:ml-24 mt-10">
+          <div className="imageAndVid2 sm:mt-[3rem] sm:w-[85%] h-[25rem] sm:h-fit relative overflow-auto">
+            <img
+              className="hidden sm:block w-full h-full object-cover object-center"
+              src="https://a.storyblok.com/f/133769/2409x3000/cfd16e1a58/cambium-carbon-hero.jpg/m/1300x1619/filters:quality(90)"
+              alt=""
+            />
 
-export default WorkSection
+            <video
+              autoPlay
+              loop
+              muted
+              className="block sm:hidden absolute top-0 left-0  w-full h-full object-cover scale-[1] object-center "
+              src="https://player.vimeo.com/progressive_redirect/playback/1001982172/rendition/720p/file.mp4?loc=external&log_user=0&signature=b92eb1ab8119f2ffaaa03f075ef271714f5ee63065ee8d29f4e188ce30202de0"
+              alt=""
+            />
+          </div>
+
+          <div className="picture-heading flex capitalize sm:text-[0.9rem] text-xs">
+            <h1 className="font-semibold">Cambium--</h1>
+            <p className="opacity-60 font-bold">
+              Pioneering Sustainable Solutions
+            </p>
+          </div>
+        </div>
+        
+
+        <div className="elem4 sm:absolute bottom-[0%] left-[0%] translate-[-50%, -50%] sm:w-[30%] flex-shrink-0">
+          <div className="imageAndVid4 mt-[3rem] h-[25rem] sm:h-fit relative overflow-auto">
+            <img
+              className="hidden sm:block w-full h-full object-cover object-center"
+              src="https://a.storyblok.com/f/133769/2400x2990/8f08135741/studio-d-hero.jpg/m/1300x1620/filters:quality(90)"
+              alt=""
+            />
+
+            <video
+              autoPlay
+              loop
+              muted
+              className="block sm:hidden absolute top-0 left-0  w-full h-full object-cover scale-[1] object-center "
+              src="https://player.vimeo.com/progressive_redirect/playback/914798702/rendition/720p/file.mp4?loc=external&log_user=0&signature=b76cb0994de6beca7f6ba29e7eb52db1750d34600352dab2566c6ca16fcd817f"
+              alt=""
+            />
+          </div>
+
+          <div className="picture-heading flex capitalize sm:text-[0.9rem] text-xs">
+            <h1 className="font-semibold">Studio D--</h1>
+            <p className="opacity-60 font-bold">
+              Urban and Landscape Design
+            </p>
+          </div>
+        </div>
+
+        <a href="" className="font-semibold opacity-80 sm:text-lg text-sm border-b-[1px] border-[black] mt-7 absolute bottom-0 right-[10%] inline-block">Browse all work</a>
+
+      </div>
+    </div>
+  );
+};
+
+export default WorkSection;
