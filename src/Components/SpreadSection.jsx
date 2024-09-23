@@ -1,8 +1,9 @@
 import React from "react";
-
+import { motion } from "framer-motion";
+import { Power4 } from "gsap/all";
 const SpreadSection = () => {
   return (
-    <div className="w-full h-[50vh] flex items-center justify-start flex-col">
+    <div className="w-full h-[70vh] flex items-center justify-start flex-col pb-[10rem]">
       <div className="page2-title flex items-center  gap-[0.3rem]">
         <svg
           viewBox="0 0 12 12"
@@ -22,9 +23,23 @@ const SpreadSection = () => {
       </div>
 
       <div className="Spread-content w-full h-full flex item-center justify-start flex-col">
-        <h3 className="text-6xl text-center tracking-tighter mt-10">Spread</h3>
-        <h3 className="text-6xl text-center tracking-tighter">the News</h3>
-        <p className="text-lg text-center mt-12 sm:w-[30%] mx-auto">
+        <h1 className="text-6xl text-center tracking-tighter mt-10 sm:text-[6rem]">
+          {["Spread", "the News"].map((item, index) => (
+            <motion.h1
+              key={index}
+              className=" origin-left overflow-hidden"
+              initial={{ rotate: 10, y: "100%", opacity: 0 }}
+              whileInView={{ rotate: 0, y: "0%", opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ ease: Power4.easeInOut, duration: 1.5 }}
+            >
+              {item}
+            </motion.h1>
+          ))}
+        </h1>
+        {/* <h3 className="">Spread</h3>
+        <h3 className="text-6xl text-center tracking-tighter">the News</h3> */}
+        <p className="text-lg text-center mt-12 sm:w-[30%] mx-auto mb-[10rem]">
           Find out more about our work on these leading design and technology
           platforms.
         </p>
