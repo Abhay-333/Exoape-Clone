@@ -23,7 +23,7 @@ const WorkSection = () => {
           ></path>
         </svg>
 
-        <h1 className="text-sm">Featured Projects</h1>
+        <h1 className="text-sm">In the media</h1>
       </div>
 
       <h1 className="text-[4rem] sm:text-[10rem] sm:leading-[11rem]">Work</h1>
