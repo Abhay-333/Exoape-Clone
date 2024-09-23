@@ -1,4 +1,9 @@
 import React from "react";
+import vid1 from '../Resources/vid1.mp4'
+import vid2 from '../Resources/vid2.mp4'
+import vid3 from '../Resources/vid3.mp4'
+import vid4 from '../Resources/vid4.mp4'
+
 
 const WorkSection = () => {
   return (
@@ -36,12 +41,9 @@ const WorkSection = () => {
               alt=""
             />
 
-            <video
-              autoPlay
-              loop
-              muted
+            <video autoPlay loop muted
               className="block sm:hidden absolute top-0 left-0  w-full h-full object-cover scale-[1] object-center "
-              src="https://player.vimeo.com/progressive_redirect/playback/927016456/rendition/720p/file.mp4?loc=external&log_user=0&signature=270ce5ba6bf44a717c74cf85de5f3de1d33a36ba5205b660e5e23b873199d71a"
+              src={vid1}
               alt=""
             />
           </div>
@@ -88,12 +90,9 @@ const WorkSection = () => {
               alt=""
             />
 
-            <video
-              autoPlay
-              loop
-              muted
+            <video autoPlay loop muted
               className="block sm:hidden absolute top-0 left-0  w-full h-full object-cover scale-[1] object-center "
-              src="https://player.vimeo.com/progressive_redirect/playback/914798271/rendition/720p/file.mp4?loc=external&log_user=0&signature=2af493277d050009920c26416a8d62a9a8c316353242c609ee157fcf1e300076"
+              src={vid3}
               alt=""
             />
           </div>
@@ -114,12 +113,9 @@ const WorkSection = () => {
               alt=""
             />
 
-            <video
-              autoPlay
-              loop
-              muted
+            <video autoPlay loop muted
               className="block sm:hidden absolute top-0 left-0  w-full h-full object-cover scale-[1] object-center "
-              src="https://player.vimeo.com/progressive_redirect/playback/1001982172/rendition/720p/file.mp4?loc=external&log_user=0&signature=b92eb1ab8119f2ffaaa03f075ef271714f5ee63065ee8d29f4e188ce30202de0"
+              src={vid2}
               alt=""
             />
           </div>
@@ -141,12 +137,9 @@ const WorkSection = () => {
               alt=""
             />
 
-            <video
-              autoPlay
-              loop
-              muted
+            <video autoPlay loop muted
               className="block sm:hidden absolute top-0 left-0  w-full h-full object-cover scale-[1] object-center "
-              src="https://player.vimeo.com/progressive_redirect/playback/914798702/rendition/720p/file.mp4?loc=external&log_user=0&signature=b76cb0994de6beca7f6ba29e7eb52db1750d34600352dab2566c6ca16fcd817f"
+              src={vid4}
               alt=""
             />
           </div>
